@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Amanda James </title>
+    <link rel ="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="Images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+   
+    <script src="https://kit.fontawesome.com/9c7a22b50a.js" crossorigin="anonymous"></script>
+
+ </head>  
+ 
+ <body>
+    <div id="header">
+        <div class ="ref">
+           <nav> 
+                
+                <ul id ="sidemenu">
+                    <li><a href="homePage.html">Home</a></li>
+                    <li><a href="about.html">About</a></li> 
+                    <li><a href="projects.html">Projects</a></li> 
+                    <li><a href="contact.html">Contact</a></li> 
+                    <i class="fa-solid fa-x" onclick="closemenu()"></i>  
+                </ul> 
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>   
+            </nav>
+        </div>
+
+
+<!------------Contact------------->
+
+        <section class ="contact">
+            <div class="content">
+                <h2>Contact Me</h2>
+                <p> I can be primarly reached by email.</p>
+            </div> 
+            <div class="container">
+
+                <div class="contactInfo">
+                   <div class="box">
+
+                        <div class ="icon"><a href="mailto:aj21650@gmail.com " target=_blank><i class="fa-solid fa-envelope"></i></a></div>
+                        <div class="text">
+                           <a  href="mailto:aj21650@gmail.com"><h3>Email </h3> </a>
+                            <p>aj21650@gmail.com</p>
+                            
+                        </div>
+                    </div>
+              
+
+                    <div class="box">
+                        <div class ="icon"> <a href="https://www.linkedin.com/in/amanda-james-324b32176/" ><i class="fa-brands fa-linkedin"></i></a></div>
+                        <div class="text">
+                        <a href="https://www.linkedin.com/in/amanda-james-324b32176/" target=_blank><h3>LinkedIn</h3></a>
+                        <p>LinkedIn Profile </p>
+     
+                    </div>
+
+                </div>
+                
+            </div> 
+
+        </section>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+
+            function closemenu(){    
+                sidemenu.style.right = "-200px";
+            }
+
+        </script>
+
+        <div class="copyright">
+            <p>Copyright <i class="fa-solid fa-copyright"></i>  Amanda James</p>
+        </div>
+
+
+    </body>
+
+ </html>   

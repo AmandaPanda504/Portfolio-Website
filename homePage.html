@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Amanda James </title>
+    <link rel ="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="Images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <script src="https://kit.fontawesome.com/9c7a22b50a.js" crossorigin="anonymous"></script>
+    
+ </head>  
+ 
+ <body>
+    <div id="header">
+        <div class ="ref">
+           <nav>       
+                <ul id="sidemenu">
+                    <li><a href="homePage.html">Home</a></li>
+                    <li><a href="about.html">About</a></li> 
+                    <li><a href="projects.html">Projects</a></li> 
+                    <li><a href="contact.html">Contact</a></li> 
+                    <i class="fa-solid fa-x" onclick="closemenu()"></i> 
+                </ul> 
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>   
+            </nav>
+        </div>
+
+
+        <section class = "home">
+            <div class ="home-text">
+                <h3>Welcome</h3>
+                <p>Amanda James' Portfolio Website</p>
+            </div>        
+        </section>
+
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+
+            function closemenu(){    
+                sidemenu.style.right = "-200px";
+            }
+
+        </script>
+
+
+    </body>
+    
+
+    <div class="copyright">
+        <p>Copyright <i class="fa-solid fa-copyright"></i>  Amanda James</p>
+    </div>
+
+ </html>   
